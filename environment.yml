@@ -1,0 +1,8 @@
+name: li2notion
+channels:
+  - conda-forge
+dependencies:
+  - nodejs=20
+  - git
+  - curl
+  - wget

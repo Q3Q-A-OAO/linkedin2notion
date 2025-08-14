@@ -1,0 +1,17 @@
+{
+    "name": "linkedin2notion",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "login": "node scripts/login.js",
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "@notionhq/client": "^2.2.14",
+        "body-parser": "^1.20.3",
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.1",
+        "express": "^4.19.2",
+        "playwright": "^1.45.0"
+    }
+}
